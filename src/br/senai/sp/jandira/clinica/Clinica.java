@@ -25,13 +25,15 @@ public class Clinica {
 			p1.dataNascimento = LocalDate.of(2003, 02, 15);
 			p1.estaInternado = true;
 			
+			
 			Paciente p2 = new Paciente();
 			p2.setAltura(1.65);
 			p2.dataNascimento = LocalDate.of(2008, 6, 8);
 			p2.nome = "Gabriel";
-			p2.setPeso(31.500);
+			p2.setPeso(51.500);
 			p2.telefone = "(11) 93466-0839";
 			p2.estaInternado = false;
+		
 			
 			//Mostrar dados dos pacientes
 			p1.mostrarFichaPaciente();
